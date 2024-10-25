@@ -1,0 +1,18 @@
+.feynman__link::after {
+    content:' \2192';
+}
+  
+.feynman__link {  
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feynman__link:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s linear;
+}

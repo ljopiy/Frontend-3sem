@@ -1,0 +1,15 @@
+.knah__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.knah__buy-link::after {
+    content:' \2192';
+}
+
+.knah__buy-link:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s linear;
+}

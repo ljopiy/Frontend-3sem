@@ -1,0 +1,9 @@
+.header__main-illustrition {
+    align-items: flex-start;
+    width: 765px;
+    min-height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
