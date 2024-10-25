@@ -8,5 +8,5 @@
     right: -210px;
     z-index: 0;
     animation: rotation 20s linear infinite;
-    transform-origin: 515px 385px;
+    transform-origin: 515px 385px; /* в Paint нашла центр треугольника*/
 }
