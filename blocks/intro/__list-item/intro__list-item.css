@@ -1,0 +1,29 @@
+.intro__list-item {
+  font-weight: 600;
+  font-size: calc(12rem / 16);
+  line-height: calc(18 / 12);
+}
+
+.intro__list-item::after {
+  font-weight: 400;
+}
+
+.intro__list-item:first-child::after {
+  content: ' 11';
+}
+
+.intro__list-item:nth-child(2)::after {
+  content: ' 12';
+}
+
+.intro__list-item:nth-child(3)::after {
+  content: ' 16';
+}
+
+.intro__list-item:nth-child(4)::after {
+  content: ' 105';
+}
+
+.intro__list-item:last-child::after {
+  content: ' 241';
+}

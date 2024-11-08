@@ -1,0 +1,33 @@
+@media all {
+  .lead__title {
+    padding: 0;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:320px) {
+  .lead__title {
+    font-size: calc(40rem/16);
+    line-height: calc(44 / 40);
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__title {
+    font-size: calc(96rem/16);
+    line-height: calc(100 / 96);
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__title {
+    max-width: 75%;
+  }
+}
+
+

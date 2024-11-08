@@ -1,0 +1,10 @@
+@media all{
+  .place__url-heading {
+    color: #aaa;
+    font-size: calc(12rem / 16);
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+}
+

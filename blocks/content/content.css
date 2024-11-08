@@ -1,0 +1,23 @@
+.content {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .content {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    max-width: calc(928% / 1024 * 100);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content {
+    max-width: calc(984% / 1280 * 100);
+  }
+}
+
+

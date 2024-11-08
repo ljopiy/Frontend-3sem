@@ -1,0 +1,34 @@
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.63;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__paragraph {
+    width: 100%;
+    font-size: calc(16rem / 16);
+    line-height: 1.63;
+    margin: 0;
+    letter-spacing: 0.5px; /*не понимаю, что не так с шрифтом, что он при всех параметрах из фигмы, все равно не так стоит*/
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .place__paragraph {
+    font-size: calc(18rem / 16);
+    margin: 0;
+    margin-bottom: 25px;
+    line-height: 1.63;
+  }
+}
+
+.place__paragraph:last-child {
+  grid-area: paragraph1;
+  margin-bottom: 0;
+}

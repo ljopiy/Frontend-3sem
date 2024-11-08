@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+@media screen and (min-width: 320px) {
+.header {
+  max-width: 90%;
+  margin-bottom: 48px;
+  min-height: 42px;
+  margin-top: 16px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.header {
+  max-width: calc(720% / 768 * 100);
+  min-height: 52px;
+  margin-top: 24px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.header {
+  max-width: calc(928% / 1024 *100);
+  margin-bottom: 56px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: calc(1184% / 1280 * 100);
+    margin-top: 28px;
+  }
+}

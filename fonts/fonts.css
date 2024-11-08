@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../Inter-4.0/extras/woff-hinted/InterDisplay-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../Inter-4.0/extras/woff-hinted/interdisplay-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../Inter-4.0/extras/woff-hinted/inter-black.woff) format("woff");
+}

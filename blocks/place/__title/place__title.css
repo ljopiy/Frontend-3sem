@@ -1,0 +1,38 @@
+.place__title {
+  font-weight: 900;
+}
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
+    line-height: calc(32 / 35);
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .place__title {
+    margin: 0;
+    grid-area: title;
+    font-size: calc(42rem / 16);
+    line-height: 1.11;
+    align-self: end;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .place__title {
+    font-size: calc(72rem / 16);
+    line-height: calc(76 / 72);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__title {
+    line-height: 1.1;
+  }
+}
+
+
