@@ -14,4 +14,7 @@
     * HTML5
     * CSS
     * JavaScript
+    * Webpack
+    * Babel
+    * Postcss
 

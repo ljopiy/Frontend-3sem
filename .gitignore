@@ -2,6 +2,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/dist
 
 # testing
 /coverage
@@ -25,4 +26,6 @@ yarn-error.log*
 # editors
 .vscode
 .idea
+
+
 
